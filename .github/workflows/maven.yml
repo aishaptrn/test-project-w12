@@ -11,8 +11,8 @@ name: Java CI with Maven
 on:
   push:
     branches: [ "main" ]
-  release:
-    types: [ "created" ]
+  pull_request:
+    branches: [ "main" ]
     
 jobs:
   build:
